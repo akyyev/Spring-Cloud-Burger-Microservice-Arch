@@ -1,0 +1,8 @@
+spring:
+  eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka
+      registeredWithEureka: true
+      fetchingRegistry: true
+      enabled: true

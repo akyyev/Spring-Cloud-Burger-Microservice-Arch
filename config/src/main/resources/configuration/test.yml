@@ -1,0 +1,9 @@
+abc:
+  xtz: true
+
+spring:
+  datasource:
+    url: jdbc:postgresql://123.123.123.1:5432/user
+    username: admin
+    password: admin
+    driverClassName: org.postgresql.Driver

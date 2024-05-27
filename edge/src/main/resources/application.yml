@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: edge
+
+server:
+  port: 8123
+
+logging:
+  level:
+    com.codekerki: DEBUG
+    org.sprongframework.web: DEBUG
+    com.netflix: DEBUG
